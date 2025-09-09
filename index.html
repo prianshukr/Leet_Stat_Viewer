@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeetStat</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>LeetStat</h1>
+      <button id="theme-toggle">🌙</button>
+    </div>
+
+    <div class="user">
+      <p>Enter username:</p>
+      <div class="input">
+        <input type="text" placeholder="username" id="userid"/>
+        <button id="search">Search</button>
+      </div>
+    </div>
+
+    <div class="status">
+      <div class="progress">
+  <div class="progress-item">
+    <div class="easy circle">
+      <span id="easy-percent">0%</span>
+    </div>
+    <p id="easy-label"></p>
+    <p>Easy</p>
+  </div>
+
+  <div class="progress-item">
+    <div class="medium circle">
+      <span id="medium-percent">0%</span>
+    </div>
+    <p id="medium-label"></p>
+    <p>Medium</p>
+  </div>
+
+  <div class="progress-item">
+    <div class="hard circle">
+      <span id="hard-percent">0%</span>
+    </div>
+    <p id="hard-label"></p>
+    <p>Hard</p>
+  </div>
+</div>
+
+
+      <div class="stat-card"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
